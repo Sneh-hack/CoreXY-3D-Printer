@@ -1,0 +1,2 @@
+/Users/snehkahodariya/Desktop/CoreXY\\[[:space:]]3D\\[[:space:]]Printer[[:space:]] filter=lfs diff=lfs merge=lfs -text
+/Users/snehkahodariya/Desktop/CoreXY\\[[:space:]]3D\\[[:space:]]Printer/** filter=lfs diff=lfs merge=lfs -text
