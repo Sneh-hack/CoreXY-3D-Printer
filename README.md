@@ -1,4 +1,4 @@
-**CoreXY 3D Printer**
+**Custom CoreXY 3D Printer**
 
 **Description**
 My project is a simple, blue coloured, custom CoreXY 3D Printer with cool LED lighting and a cool back panel. The sides are made of acrylic sheets, showing all the electronics. It uses aluminium extrusions for its frame and a Manta M8P V2.0 and Raspberry Pi CM4. The firmware utilises Klipper with Mainsail. This is the first 3D printer I have ever made and I personally love it. 
@@ -7,21 +7,53 @@ My project is a simple, blue coloured, custom CoreXY 3D Printer with cool LED li
 I made this project because do a lot of engineering projects and CAD modelling at home. A 3D Printer would not only help me increase my skills but would also level up my set-up and make my life a lot easier when making these projects. It will allow me to test my project at home in real life at a cheaper cost at any time and as many times as I want. I also love making new CAD models. A 3D printer would help me bring whatever I make to life. Below are a few images of my project:
 
 **Top View:**
+
 <img width="515" height="498" alt="Top View" src="https://github.com/user-attachments/assets/3d0f6719-938b-4e6a-8411-51cb31623cdc" />
 
 **Side View:**
+
 <img width="501" height="693" alt="Side View" src="https://github.com/user-attachments/assets/c6bbfc08-276f-4844-b0ec-17cd12afe927" />
 
 **Front View:**
+
 <img width="463" height="618" alt="Front View" src="https://github.com/user-attachments/assets/979cb321-9d3e-4241-b2ca-5f0631e68023" />
 
 **Back View:**
+
 <img width="516" height="694" alt="Back View" src="https://github.com/user-attachments/assets/e8dd7fba-0dbc-4e10-a9a9-def382a32cb1" />
 
 **Angled View:**
+
 <img width="486" height="579" alt="Angled View" src="https://github.com/user-attachments/assets/4fcf9cf6-f2e7-465d-8545-d28884532229" />
 
 Below I have also included a BOM:
 
-
+Part Name,Part Number,Per Unit,Total Quantity Required ,Unit Cost,Total,Link 
+Frame,,,,,,
+4.8m 20 x 20 T Slot Aluminium Extrutions,-,1,1,38.21,38.21,https://extrusionsonline.com.au/product/20x20-t-slot/
+2.4m 20 x 20 T Slot Aluminium Extrutions,-,1,1,24.11,24.11,https://extrusionsonline.com.au/product/20x20-t-slot/
+Three Way Corner Brackets + L-Shaped Interior Corner Brackets,A317,10 + 10,1,14.79,14.79,https://www.aliexpress.com/item/1005009761192354.html?src=google&src=google&albch=shopping&acnt=742-864-1166&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en1005009761192354&ds_e_product_merchant_id=106987257&ds_e_product_country=AU&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=21819463808&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_campaignid=21819486122&gbraid=0AAAAA99aYpcoqJNBobkSxfWX-DipesvXX
+Rubber Feet,F08616,4,1,4.69,4.69,https://www.aliexpress.com/item/1005008585054169.html?mp=1&pdp_npi=6@dis!AUD!AUD+4.69!AUD+4.69!!AUD+4.69!!!@2101d9ef17912807309733225e0ccd!12000045836931271!ct!AU!8221750708!!1!0!
+Motion,,,,,,
+Nema 17 Motors,17HS4401S,1,2,16.99,33.98,https://www.aliexpress.com/item/1005012824954816.html?src=google&src=google&albch=shopping&acnt=603-455-9033&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_oFgTQeV&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en1005012824954816&ds_e_product_merchant_id=106243854&ds_e_product_country=AU&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=23552171215&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_campaignid=23552203321&gbraid=0AAAABCRFad-Ri7cTi-jKdHnMY9XlBbMFi
+Nema 17 Motors,17HS8401S,1,1,17.09,17.09,https://www.aliexpress.com/item/1005008375236369.html?src=google&src=google&albch=shopping&acnt=742-864-1166&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en1005008375236369&ds_e_product_merchant_id=107660236&ds_e_product_country=AU&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=21819463808&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_campaignid=21819486122&gbraid=0AAAAA99aYpcoqJNBobkSxfWX-DipesvXX
+9mm Pulley,-,5,1,3.94,3.94,"https://www.aliexpress.com/item/1005012080924929.html?spm=a2g0o.productlist.main.1.70ab815cqXeeWV&algo_pvid=b027d870-ca1e-4a55-a70d-af5740b595cd&algo_exp_id=b027d870-ca1e-4a55-a70d-af5740b595cd-0&pdp_ext_f=%7B""order""%3A""101"",""eval""%3A""1"",""fromPage""%3A""search""%7D&pdp_npi=6%40dis%21AUD%214.36%211.49%21%21%2120.06%216.86%21%402101e56817912796451677829e0de8%2112000057604131547%21sea%21AU%218221750708%21ABX%211%210%21n_tag%3A-29910%3Bd%3A6b9da299%3Bm03_new_user%3A-29895%3BpisId%3A5000000218631897&curPageLogUid=xC2D15eXmQ0I&utparam-url=scene%3Asearch|query_from%3A|x_object_id%3A1005012080924929|_p_origin_prod%3A"
+9mm Toothed Idlers,-,1,4,6.95,27.8,https://shapeshop.com.au/belts-pulleys/52-169-idler-pulley.html?gad_campaignid=20300929370&gbraid=0AAAAAonFwPsIptcv7s29383UV9LrulBjY
+350mm MGN9H Linear Rail,,2,1,22.19,22.19,"https://www.aliexpress.com/item/1005012710123826.html?spm=a2g0o.productlist.main.1.299441efE2YI65&algo_pvid=0263c33c-9b9f-4440-bbba-7dd6a5d0a84d&algo_exp_id=0263c33c-9b9f-4440-bbba-7dd6a5d0a84d-0&pdp_ext_f=%7B""order""%3A""53"",""eval""%3A""1"",""fromPage""%3A""search""%7D&pdp_npi=6%40dis%21AUD%2112.86%2110.29%21%21%2159.15%2147.33%21%40210328df17912659682658518e111c%2112000059116403599%21sea%21AU%218221750708%21ABX%211%210%21n_tag%3A-29910%3Bd%3A6b9da299%3Bm03_new_user%3A-29895&curPageLogUid=jvUIfB21iWH1&utparam-url=scene%3Asearch|query_from%3A|x_object_id%3A1005012710123826|_p_origin_prod%3A"
+300mm MGN12H Linear Rail,,1,1,9.89,9.89,"https://www.aliexpress.com/item/1005012710123826.html?spm=a2g0o.productlist.main.1.299441efE2YI65&algo_pvid=0263c33c-9b9f-4440-bbba-7dd6a5d0a84d&algo_exp_id=0263c33c-9b9f-4440-bbba-7dd6a5d0a84d-0&pdp_ext_f=%7B""order""%3A""53"",""eval""%3A""1"",""fromPage""%3A""search""%7D&pdp_npi=6%40dis%21AUD%2112.86%2110.29%21%21%2159.15%2147.33%21%40210328df17912659682658518e111c%2112000059116403599%21sea%21AU%218221750708%21ABX%211%210%21n_tag%3A-29910%3Bd%3A6b9da299%3Bm03_new_user%3A-29895&curPageLogUid=jvUIfB21iWH1&utparam-url=scene%3Asearch|query_from%3A|x_object_id%3A1005012710123826|_p_origin_prod%3A"
+300mm MGN9H Linear Rails,,1,3,9.56,28.68,"https://www.aliexpress.com/item/1005012710123826.html?spm=a2g0o.productlist.main.1.299441efE2YI65&algo_pvid=0263c33c-9b9f-4440-bbba-7dd6a5d0a84d&algo_exp_id=0263c33c-9b9f-4440-bbba-7dd6a5d0a84d-0&pdp_ext_f=%7B""order""%3A""53"",""eval""%3A""1"",""fromPage""%3A""search""%7D&pdp_npi=6%40dis%21AUD%2112.86%2110.29%21%21%2159.15%2147.33%21%40210328df17912659682658518e111c%2112000059116403599%21sea%21AU%218221750708%21ABX%211%210%21n_tag%3A-29910%3Bd%3A6b9da299%3Bm03_new_user%3A-29895&curPageLogUid=jvUIfB21iWH1&utparam-url=scene%3Asearch|query_from%3A|x_object_id%3A1005012710123826|_p_origin_prod%3A"
+F695 Bearings,F695,10,2,5.33,10.66,https://www.aliexpress.com/item/1005004095001000.html?src=google&src=google&albch=shopping&acnt=742-864-1166&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en1005004095001000&ds_e_product_merchant_id=106987257&ds_e_product_country=AU&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=21819463808&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_campaignid=21819486122&gbraid=0AAAAA99aYpcoqJNBobkSxfWX-DipesvXX
+LDO 42STH48 2504AC Motors,42STH48 2504AC,1,2,13.99,27.98,https://www.aliexpress.com/item/1005011914866038.html?mp=1&pdp_npi=6@dis!AUD!AUD+42.39!AUD+13.99!!AUD+13.99!!!@2101d9ef17912807309733225e0ccd!12000057005614293!ct!AU!8221750708!!2!0!
+9mm GT2 Belt,GT2(2GT),1,1,11.99,11.99,https://3dradicalprints.com.au/product/gates-ll-2gt-synchronous-belt-by-the-metre-gt2-belt-9mm/
+Electronics,,,,,,
+BTT Manta M8P V2.0,1020000442,1,1,124,124,https://biqu.equipment/products/bigtreetech-stealthy-hi-speed-solution?variant=40447042256994
+Raspberry Pi CM4 2GB,CE07441,1,1,67.06,67.06,https://au.mouser.com/en/ProductDetail/Raspberry-Pi/SC0691?qs=T%252BzbugeAwjhvVm5MYNQRow==&mgh=1&vip=1&gad_campaignid=22485823897&gbraid=0AAAAADn_wf0n2BUcvpqo2LcjpLBFZfD17
+BTT TMC2209,1040000053,6,1,47,47,https://biqu.equipment/products/btt-tmc2209-stepper-driver?variant=39452262105186
+Hot End and Entruder,,,,,,
+LDO All-in-One Smart Orbiter V3.0,LDO1597,1,1,110,110, https://west3d.com/en-au/products/smart-orbiter-v3-0-by-ldo-motors-all-in-one-extruder
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,Total (AUD): ,624.06,
+,,,,Total (USD):,436.842,
 
