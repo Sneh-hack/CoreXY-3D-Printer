@@ -1,0 +1,3 @@
+**CoreXY 3D Printer**
+
+My project is a simple custom CoreXY 3D Printer with cool LED lighting and a cool back panel. The sides are made of acrylic sheets, showing all the electronics. It uses aluminium extrusions for its frame and a Manta M8P V2.0 and Raspberry Pi CM4. This is the first 3D printer I have made and I personally love it. I made a 3D printer as do a lot of engineering projects and CAD modelling at home. A 3D Printer would not only help me increase my skills but would also level up my set-up and make my life a lot easier when making these projects. It will allow me to test engineering project at home in real life.  
