@@ -10,21 +10,26 @@ I made this project because do a lot of engineering projects and CAD modelling a
 
 <img width="515" height="498" alt="Top View" src="https://github.com/user-attachments/assets/3d0f6719-938b-4e6a-8411-51cb31623cdc" />
 
+
 **Side View:**
 
 <img width="501" height="693" alt="Side View" src="https://github.com/user-attachments/assets/c6bbfc08-276f-4844-b0ec-17cd12afe927" />
+
 
 **Front View:**
 
 <img width="463" height="618" alt="Front View" src="https://github.com/user-attachments/assets/979cb321-9d3e-4241-b2ca-5f0631e68023" />
 
+
 **Back View:**
 
 <img width="516" height="694" alt="Back View" src="https://github.com/user-attachments/assets/e8dd7fba-0dbc-4e10-a9a9-def382a32cb1" />
 
+
 **Angled View:**
 
 <img width="486" height="579" alt="Angled View" src="https://github.com/user-attachments/assets/4fcf9cf6-f2e7-465d-8545-d28884532229" />
+
 
 Below I have also included a BOM:
 
@@ -56,4 +61,3 @@ LDO All-in-One Smart Orbiter V3.0,LDO1597,1,1,110,110, https://west3d.com/en-au/
 ,,,,,,
 ,,,,Total (AUD): ,624.06,
 ,,,,Total (USD):,436.842,
-
