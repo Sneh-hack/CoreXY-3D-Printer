@@ -1,7 +1,7 @@
 **Custom CoreXY 3D Printer**
 
 **Description**
-My project is a simple, blue coloured, custom CoreXY 3D Printer with cool LED lighting and a cool back panel. The sides are made of acrylic sheets, showing all the electronics. It uses aluminium extrusions for its frame and a Manta M8P V2.0 and Raspberry Pi CM4. The firmware utilises Klipper with Mainsail. This is the first 3D printer I have ever made and I personally love it. 
+My project is a simple, blue coloured, custom CoreXY 3D Printer with cool LED lighting and a cool back panel. The sides are made of acrylic sheets, showing all the electronics. It uses aluminium extrusions for its frame and a Manta M8P V2.0 and Raspberry Pi CM4. The firmware utilises MainsailOS. This is the first 3D printer I have ever made and I personally love it. 
 
 **Why I made it:**
 I made this project because do a lot of engineering projects and CAD modelling at home. A 3D Printer would not only help me increase my skills but would also level up my set-up and make my life a lot easier when making these projects. It will allow me to test my project at home in real life at a cheaper cost at any time and as many times as I want. I also love making new CAD models. A 3D printer would help me bring whatever I make to life. Below are a few images of my project:
