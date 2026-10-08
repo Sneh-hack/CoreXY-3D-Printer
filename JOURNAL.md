@@ -1,9 +1,9 @@
 ---
-title: "3D Printer"
-github: "https://github.com/Sneh-hack/CoreXY-3D-Printer/tree/main"
-description: "A Custom 3D Printer!!! No idea how I will make it... but I will! "
-created_at: "2026-10-01"
-total_time: "32h 30m"
+Title: "3D Printer"
+Github: "https://github.com/Sneh-hack/CoreXY-3D-Printer/tree/main"
+Description: "A Custom 3D Printer!!! No idea how I will make it... but I will! "
+Created_at: "2026-10-01"
+Total_time: "32h 30m"
 ---
 
 # October 1, 2026: Learnt how a 3D Printer Works + Roughly Designed Mine
